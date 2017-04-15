@@ -22,7 +22,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.textView.delegate = self;
     self.textView.editable = NO;
-    self.textView.text = @"这是一个链接https://console.qcloud.com/workorder/detail?ticketId=201703300143哈哈baidu.com1234567我是fjaljfldsjflajs";
+    self.textView.text = @"这是一个链接https://console.qcloud.com/workorder/detail?ticketId=201703300143哈哈baidu.com我是fjaljfldsjflajs";
 }
 
 - (IBAction)parseText:(id)sender {
